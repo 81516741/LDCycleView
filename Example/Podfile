@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LDCycleView_Example' do
+  pod 'LDCycleView', :path => '../'
+
+  target 'LDCycleView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
