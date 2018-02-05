@@ -8,7 +8,7 @@
 
 #import "LDViewController.h"
 
-#import "HRCycleView.h"
+#import "LDCycleView.h"
 
 @interface LDViewController ()
 
@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSArray * colors = @[[UIColor redColor],[UIColor greenColor],[UIColor blackColor]];
-    HRCycleView * view = [HRCycleView cycleView:2];
+    LDCycleView * view = [LDCycleView cycleView:2];
     view.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, 150);
     view.itemCount = ^(){
         return (NSInteger)3;

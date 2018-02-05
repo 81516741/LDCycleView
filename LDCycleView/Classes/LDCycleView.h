@@ -1,5 +1,5 @@
 //
-//  HRCyleView.h
+//  LDCyleView.h
 //  无限滚动
 //
 //  Created by ld on 17/2/24.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 //类似tableView的方式去使用，不同点是用block替代了代理
-@interface HRCycleView : UIView<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface LDCycleView : UIView<UICollectionViewDataSource,UICollectionViewDelegate>
 
 /**
   * 快速创建对象
@@ -19,7 +19,7 @@
 /**
  * 页面的个数必须大于0 这个block必须赋值 (类似tableView必须返回cell的个数)
  */
-@property (nonatomic,copy) NSInteger(^itemCount)();
+@property (nonatomic,copy) NSInteger(^itemCount)(void);
 /**
  * 获取每个页面的item
  */
@@ -31,12 +31,12 @@
 /**
  * 是否显示指示点
  */
-@property (nonatomic,copy) BOOL(^showIndicator)();
+@property (nonatomic,copy) BOOL(^showIndicator)(void);
 
 @end
 
 
-@interface hr_YYTextWeakProxy : NSProxy
+@interface LD_YYTextWeakProxy : NSProxy
 
 @property (nonatomic, weak, readonly) id target;
 - (instancetype)initWithTarget:(id)target;

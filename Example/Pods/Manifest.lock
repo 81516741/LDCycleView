@@ -1,5 +1,5 @@
 PODS:
-  - LDCycleView (0.1.0)
+  - LDCycleView (0.1.1)
 
 DEPENDENCIES:
   - LDCycleView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LDCycleView: 1601c69abe62e920fb3d49aeb142f4b4e4923b27
+  LDCycleView: d1cf16299380658b280cd6f201238d433b09f7db
 
 PODFILE CHECKSUM: e1ea79e4c890d2f9abd6ed3deb3bcd16c4363512
 

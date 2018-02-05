@@ -9,15 +9,15 @@
 /* Begin PBXBuildFile section */
 		010442BD293835023094F73D157DF1BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		0976AD49870D1ADC4D0E0F1A8EEB3CC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		0C0297616EE5FA679942573AA6BD85A2 /* HRCycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 511707467554514B6E2E7A86730C61CD /* HRCycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1463B1FEBE4C31FDB1E6442881DCD3BF /* HRCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD64FD6F4A8FB30E2D27EA4F7C4739 /* HRCycleView.m */; };
-		2CFB3D9F1E196BEB201EAA7DCB37B539 /* LDCycleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63439692CBF07F03CA30246153B5B2B5 /* LDCycleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		324C8DE9AF7F68A4968B2B68A8BBF873 /* LDCycleView.h in Headers */ = {isa = PBXBuildFile; fileRef = F6E434AFCA8077AD8BBAA1647F8966DC /* LDCycleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3607D00B4A7E6043FAC61B59705B37DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6D90C1AE2236E9D4298F56EE80AE35FA /* HRCycleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 6B46A41EB1BFB73D2AB6D505E917230C /* HRCycleView.xib */; };
 		7C2554958E25C8201C86B1F2BDD64ED5 /* Pods-LDCycleView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D16D73112439100C9352EF6678DAF64 /* Pods-LDCycleView_Tests-dummy.m */; };
-		827A107B31E6342387E0BC9CD38F88F8 /* LDCycleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7376B5E504319ACB54AFEAAC353D23F /* LDCycleView-dummy.m */; };
+		A8AA0EFD1921C9D9AE7400B4B333A24D /* LDCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3348D9CB0D095739DF365C220DD66BDD /* LDCycleView.m */; };
 		AA02689A0676A0FB7F518FC05A420934 /* Pods-LDCycleView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A1AD287154859F440F48C890021F38 /* Pods-LDCycleView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2168461AC0E8FB3E3028C3E2FD78BE /* LDCycleView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D6C09DFDF4B2368E4D41ADD27822C /* LDCycleView-dummy.m */; };
+		E1C674519C38F4DA5A282C4C32B01C34 /* LDCycleView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD4B1387FED6196F0BD6A49465667BD /* LDCycleView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E83602F0638027BD05FAA262FB43BDE6 /* Pods-LDCycleView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6B9F01B2FB56F33787D015824B4E76 /* Pods-LDCycleView_Example-dummy.m */; };
+		ECFA5878D7CD5F7A85B787344AA48F4A /* LDCycleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9C9C95193231A4206D89AECF5F30D497 /* LDCycleView.xib */; };
 		ED6C2A7E1283EB2BB87231A6F37A123A /* Pods-LDCycleView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3946DF388EFD905F923EA590DE50E583 /* Pods-LDCycleView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -32,40 +32,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10BF11667FFAB2E70DD92D7798190431 /* LDCycleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LDCycleView.modulemap; sourceTree = "<group>"; };
+		02DBB4B99A62EE72FC7F3FAF9D4A5A08 /* LDCycleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDCycleView-prefix.pch"; sourceTree = "<group>"; };
 		16191BC9C9CC271DEBA3C9F438BC7DCA /* Pods-LDCycleView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDCycleView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1B47A983DB177FECE4550D4C61FC681A /* LDCycleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDCycleView.xcconfig; sourceTree = "<group>"; };
 		1F8A28CA6EC69AE04DC5F7442C798CFF /* Pods-LDCycleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDCycleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		20098742B53905EBFA4F4B66972BAACD /* Pods-LDCycleView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDCycleView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2D16D73112439100C9352EF6678DAF64 /* Pods-LDCycleView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDCycleView_Tests-dummy.m"; sourceTree = "<group>"; };
 		2FBB48D67193000BEA5C0D642BC9D3FC /* Pods-LDCycleView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDCycleView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3348D9CB0D095739DF365C220DD66BDD /* LDCycleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDCycleView.m; path = LDCycleView/Classes/LDCycleView.m; sourceTree = "<group>"; };
 		3946DF388EFD905F923EA590DE50E583 /* Pods-LDCycleView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDCycleView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3A0B4A6731E78324876AE92CFE7A8310 /* LDCycleView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDCycleView-prefix.pch"; sourceTree = "<group>"; };
 		3A752CEBA8FA7914932E600884375E4E /* Pods_LDCycleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LDCycleView_Tests.framework; path = "Pods-LDCycleView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		511707467554514B6E2E7A86730C61CD /* HRCycleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HRCycleView.h; path = LDCycleView/Classes/HRCycleView.h; sourceTree = "<group>"; };
 		57A1AD287154859F440F48C890021F38 /* Pods-LDCycleView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDCycleView_Example-umbrella.h"; sourceTree = "<group>"; };
-		63439692CBF07F03CA30246153B5B2B5 /* LDCycleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDCycleView-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6764DA1B5C834EADE03AC54263BFF71C /* Pods-LDCycleView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDCycleView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6A6B9F01B2FB56F33787D015824B4E76 /* Pods-LDCycleView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDCycleView_Example-dummy.m"; sourceTree = "<group>"; };
-		6B46A41EB1BFB73D2AB6D505E917230C /* HRCycleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = HRCycleView.xib; path = LDCycleView/Classes/HRCycleView.xib; sourceTree = "<group>"; };
+		6CD4B1387FED6196F0BD6A49465667BD /* LDCycleView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDCycleView-umbrella.h"; sourceTree = "<group>"; };
 		6E6B84315EDC7F51E89A611955E520F7 /* Pods-LDCycleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDCycleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73B0997DFC7E2D34FE28F37A6D6E738A /* LDCycleView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LDCycleView.framework; path = LDCycleView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F7A8E75D92D6D41847F0AAB9A3ACCF /* Pods-LDCycleView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDCycleView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8121F39B0C7DE5AEC4E5EF12D9078255 /* LDCycleView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = LDCycleView.modulemap; sourceTree = "<group>"; };
 		8F898DBCC4833931BBAFEF88C2DD7365 /* Pods-LDCycleView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDCycleView_Tests-resources.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		972AD3F307819B06C9B40B787CA4A591 /* Pods-LDCycleView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDCycleView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9C9C95193231A4206D89AECF5F30D497 /* LDCycleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LDCycleView.xib; path = LDCycleView/Classes/LDCycleView.xib; sourceTree = "<group>"; };
+		A93C8C0BA5B807708879AA64C8B96310 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3D6C09DFDF4B2368E4D41ADD27822C /* LDCycleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDCycleView-dummy.m"; sourceTree = "<group>"; };
 		B3F1C9A41146AAB99B62D3DEEF0C0679 /* Pods_LDCycleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LDCycleView_Example.framework; path = "Pods-LDCycleView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6C8756A464ECE9A86A93FEA05F875E5 /* Pods-LDCycleView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDCycleView_Example-resources.sh"; sourceTree = "<group>"; };
 		D46F86D42A5BD043DD023B222AB07492 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF97876E1EEE086A7CAD3785CD73FF91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E52993EC77E05284A57582DAA47ECDF0 /* Pods-LDCycleView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDCycleView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E7376B5E504319ACB54AFEAAC353D23F /* LDCycleView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDCycleView-dummy.m"; sourceTree = "<group>"; };
-		EFBD64FD6F4A8FB30E2D27EA4F7C4739 /* HRCycleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HRCycleView.m; path = LDCycleView/Classes/HRCycleView.m; sourceTree = "<group>"; };
+		F02C596432BA04FCAAD94708C193781D /* LDCycleView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDCycleView.xcconfig; sourceTree = "<group>"; };
 		F404CC6C819EC2084071AC787E59503D /* Pods-LDCycleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDCycleView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F4621A54EA701BC2D9951EE511536E85 /* Pods-LDCycleView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LDCycleView_Tests.modulemap"; sourceTree = "<group>"; };
+		F6E434AFCA8077AD8BBAA1647F8966DC /* LDCycleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDCycleView.h; path = LDCycleView/Classes/LDCycleView.h; sourceTree = "<group>"; };
 		F825008DDA6018537DBC48B8C5CDAFB8 /* Pods-LDCycleView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-LDCycleView_Example.modulemap"; sourceTree = "<group>"; };
-		FBC2B26E1A0D3E0E56C17C887E5B27EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,23 @@
 		07EC231FDEC2B5EA853BDCEE01CF38E6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CEE48EFD3B24228A5C00F2BCEBF01B21 /* LDCycleView */,
+				63E40FEEC004C3A2DC6E9ADF9C65F3C7 /* LDCycleView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		401816283432E5D03FAEE5DC2E053CA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93C8C0BA5B807708879AA64C8B96310 /* Info.plist */,
+				8121F39B0C7DE5AEC4E5EF12D9078255 /* LDCycleView.modulemap */,
+				F02C596432BA04FCAAD94708C193781D /* LDCycleView.xcconfig */,
+				AE3D6C09DFDF4B2368E4D41ADD27822C /* LDCycleView-dummy.m */,
+				02DBB4B99A62EE72FC7F3FAF9D4A5A08 /* LDCycleView-prefix.pch */,
+				6CD4B1387FED6196F0BD6A49465667BD /* LDCycleView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LDCycleView";
 			sourceTree = "<group>";
 		};
 		56145B508B63A829762E269E8F4A10C8 /* Pods-LDCycleView_Tests */ = {
@@ -138,6 +152,18 @@
 			);
 			name = "Pods-LDCycleView_Example";
 			path = "Target Support Files/Pods-LDCycleView_Example";
+			sourceTree = "<group>";
+		};
+		63E40FEEC004C3A2DC6E9ADF9C65F3C7 /* LDCycleView */ = {
+			isa = PBXGroup;
+			children = (
+				F6E434AFCA8077AD8BBAA1647F8966DC /* LDCycleView.h */,
+				3348D9CB0D095739DF365C220DD66BDD /* LDCycleView.m */,
+				9C9C95193231A4206D89AECF5F30D497 /* LDCycleView.xib */,
+				401816283432E5D03FAEE5DC2E053CA5 /* Support Files */,
+			);
+			name = LDCycleView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -178,38 +204,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CEE48EFD3B24228A5C00F2BCEBF01B21 /* LDCycleView */ = {
-			isa = PBXGroup;
-			children = (
-				511707467554514B6E2E7A86730C61CD /* HRCycleView.h */,
-				EFBD64FD6F4A8FB30E2D27EA4F7C4739 /* HRCycleView.m */,
-				6B46A41EB1BFB73D2AB6D505E917230C /* HRCycleView.xib */,
-				EFF3E40B99D7449CE37591B2E785C2FE /* Support Files */,
-			);
-			name = LDCycleView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		EFF3E40B99D7449CE37591B2E785C2FE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FBC2B26E1A0D3E0E56C17C887E5B27EF /* Info.plist */,
-				10BF11667FFAB2E70DD92D7798190431 /* LDCycleView.modulemap */,
-				1B47A983DB177FECE4550D4C61FC681A /* LDCycleView.xcconfig */,
-				E7376B5E504319ACB54AFEAAC353D23F /* LDCycleView-dummy.m */,
-				3A0B4A6731E78324876AE92CFE7A8310 /* LDCycleView-prefix.pch */,
-				63439692CBF07F03CA30246153B5B2B5 /* LDCycleView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LDCycleView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,12 +231,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4425F900D2FDE783FCE7BA1678EB973 /* Headers */ = {
+		EF09FD16FEF58932B64C964E618F09BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0297616EE5FA679942573AA6BD85A2 /* HRCycleView.h in Headers */,
-				2CFB3D9F1E196BEB201EAA7DCB37B539 /* LDCycleView-umbrella.h in Headers */,
+				E1C674519C38F4DA5A282C4C32B01C34 /* LDCycleView-umbrella.h in Headers */,
+				324C8DE9AF7F68A4968B2B68A8BBF873 /* LDCycleView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +247,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEDD68DEA878B96D95C4355F743DA646 /* Build configuration list for PBXNativeTarget "LDCycleView" */;
 			buildPhases = (
-				FD5EEC8238A3F5F2DA020DE6125AD572 /* Sources */,
+				9A7EE92EA00729391E24B1E23E48D114 /* Sources */,
 				F96B9AA261FAA22412CB78886881D1C0 /* Frameworks */,
-				D4425F900D2FDE783FCE7BA1678EB973 /* Headers */,
+				EF09FD16FEF58932B64C964E618F09BC /* Headers */,
 			);
 			buildRules = (
 			);
@@ -332,21 +332,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9A7EE92EA00729391E24B1E23E48D114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2168461AC0E8FB3E3028C3E2FD78BE /* LDCycleView-dummy.m in Sources */,
+				A8AA0EFD1921C9D9AE7400B4B333A24D /* LDCycleView.m in Sources */,
+				ECFA5878D7CD5F7A85B787344AA48F4A /* LDCycleView.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EADDD16FDB6BC2B29A826FC5EC45E866 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E83602F0638027BD05FAA262FB43BDE6 /* Pods-LDCycleView_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD5EEC8238A3F5F2DA020DE6125AD572 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1463B1FEBE4C31FDB1E6442881DCD3BF /* HRCycleView.m in Sources */,
-				6D90C1AE2236E9D4298F56EE80AE35FA /* HRCycleView.xib in Sources */,
-				827A107B31E6342387E0BC9CD38F88F8 /* LDCycleView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +489,7 @@
 		};
 		4EDF9EC206CAB54C4A4CAE56E0169809 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B47A983DB177FECE4550D4C61FC681A /* LDCycleView.xcconfig */;
+			baseConfigurationReference = F02C596432BA04FCAAD94708C193781D /* LDCycleView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -574,7 +574,7 @@
 		};
 		BBC98141D620EEDD21DA5CDEFFF72A20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B47A983DB177FECE4550D4C61FC681A /* LDCycleView.xcconfig */;
+			baseConfigurationReference = F02C596432BA04FCAAD94708C193781D /* LDCycleView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

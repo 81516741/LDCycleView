@@ -1,18 +1,18 @@
 //
-//  HRCyleView.m
+//  LDCyleView.m
 //  无限滚动
 //
 //  Created by ld on 17/2/24.
 //  Copyright © 2017年 ld. All rights reserved.
 //
 
-#import "HRCycleView.h"
+#import "LDCycleView.h"
 #import <objc/runtime.h>
 
-#define kReuseID @"HRCycleView"
+#define kReuseID @"LDCycleView"
 #define kRepeatCount 1000
 
-@interface HRCycleView ()
+@interface LDCycleView ()
 
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (weak, nonatomic) IBOutlet UICollectionViewFlowLayout *flowLayout;
@@ -23,11 +23,11 @@
 
 @end
 
-@implementation HRCycleView
+@implementation LDCycleView
 
 + (instancetype)cycleView:(NSTimeInterval)duration
 {
-    HRCycleView * cycleView = [[[NSBundle bundleForClass:self] loadNibNamed:@"HRCycleView" owner:nil options:nil] lastObject];
+    LDCycleView * cycleView = [[[NSBundle bundleForClass:self] loadNibNamed:@"LDCycleView" owner:nil options:nil] lastObject];
     [cycleView.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:kReuseID];
     cycleView.duration = duration;
     cycleView.pageController.enabled = NO;
@@ -53,7 +53,7 @@
 #pragma mark 定时器相关
 - (void)startTimer
 {
-    _timer = [NSTimer scheduledTimerWithTimeInterval:_duration  target:[hr_YYTextWeakProxy proxyWithTarget:self] selector:@selector(autoScroll) userInfo:nil repeats:YES];
+    _timer = [NSTimer scheduledTimerWithTimeInterval:_duration  target:[LD_YYTextWeakProxy proxyWithTarget:self] selector:@selector(autoScroll) userInfo:nil repeats:YES];
 }
 
 - (void)invalidateTimer
@@ -85,7 +85,8 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    UICollectionViewCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:kReuseID forIndexPath:indexPath];
+    UICollectionViewCell * cell =
+    [collectionView dequeueReusableCellWithReuseIdentifier:kReuseID forIndexPath:indexPath];
     UIView * customView = self.fetchItem(indexPath.row % self.itemCount(),objc_getAssociatedObject(cell, _cmd));
     customView.frame = cell.bounds;
     objc_setAssociatedObject(cell, _cmd, customView, OBJC_ASSOCIATION_RETAIN);
@@ -124,7 +125,7 @@
 @end
 
 #pragma mark - 其他类
-@implementation hr_YYTextWeakProxy
+@implementation LD_YYTextWeakProxy
 
 - (instancetype)initWithTarget:(id)target {
     _target = target;
@@ -132,7 +133,7 @@
 }
 
 + (instancetype)proxyWithTarget:(id)target {
-    return [[hr_YYTextWeakProxy alloc] initWithTarget:target];
+    return [[LD_YYTextWeakProxy alloc] initWithTarget:target];
 }
 
 - (id)forwardingTargetForSelector:(SEL)selector {

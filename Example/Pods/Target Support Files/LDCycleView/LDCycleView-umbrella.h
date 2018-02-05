@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "HRCycleView.h"
+#import "LDCycleView.h"
 
 FOUNDATION_EXPORT double LDCycleViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char LDCycleViewVersionString[];
