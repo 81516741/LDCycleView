@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDCycleView'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '无限循环'
 
 # This description is used to generate tags and improve search results.
